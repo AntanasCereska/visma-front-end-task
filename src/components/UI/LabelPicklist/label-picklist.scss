@@ -1,0 +1,17 @@
+.label-picklist {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 4px;
+
+    &__label {
+        font-size: 20px;
+    }
+    &__picklist {
+        font-size: 20px;
+        padding: 8px 16px;
+        border-radius: 8px;
+        border: none;
+        background-color: rgb(243, 243, 243);
+    }
+}

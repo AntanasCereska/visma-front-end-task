@@ -1,0 +1,10 @@
+html *,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+}

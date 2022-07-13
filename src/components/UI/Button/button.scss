@@ -1,0 +1,28 @@
+@import "../../../scss/base/colors";
+
+.button {
+    width: fit-content;
+    border-radius: 8px;
+    cursor: pointer;
+    border: none;
+    color: $color-white;
+    font-weight: 500;
+    background-color: $color-blue;
+
+    &--sm {
+        padding: 6px 12px;
+        font-size: 16px;
+    }
+    &--md {
+        padding: 8px 16px;
+        font-size: 20px;
+    }
+
+    &--edit {
+        background-color: $color-orange;
+    }
+
+    &--delete {
+        background-color: $color-red;
+    }
+}

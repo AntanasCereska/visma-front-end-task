@@ -1,0 +1,44 @@
+//media query mixins
+@mixin media-query-phone {
+    @media (max-width: 767px) {
+        @content;
+    }
+}
+
+@mixin media-query-tablet {
+    @media (min-width: 768px) and (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin media-query-tablet-and-down {
+    @media (max-width: 1199px) {
+        @content;
+    }
+}
+
+@mixin media-query-desktop {
+    @media (min-width: 1200px) {
+        @content;
+    }
+}
+
+//page layout mixins
+@mixin page-layout {
+    min-height: calc(100vh - 80px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    text-align: left;
+    padding: 80px 200px;
+    background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+
+    @include media-query-tablet-and-down {
+        padding: 60px 120px;
+    }
+    @include media-query-phone {
+        padding: 20px 20px;
+    }
+}
