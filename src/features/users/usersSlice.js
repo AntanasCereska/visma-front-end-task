@@ -32,8 +32,9 @@ const initialState = localStorage.getItem("users")
       {
         id: "j7M8ALjUTHF62lV6gZ6fU",
         firstName: "Simona",
-        lastName: "Simonka",
-        email: "simonasimonka@gmail.com",
+        lastName: "Simonaviciene",
+        gender: "female",
+        email: "Simonaviciene@gmail.com",
         city: "Kaunas",
         street: "Ukmerges",
         houseNumber: "3",
